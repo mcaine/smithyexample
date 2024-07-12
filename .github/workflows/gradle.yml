@@ -41,8 +41,8 @@ jobs:
       with:
         node-version: '20.x'
 
-    - run: npm install
-    - run: npm build
+    - run: yarn install
+    - run: yarn build
 
   dependency-submission:
 
